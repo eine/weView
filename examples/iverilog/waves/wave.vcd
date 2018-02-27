@@ -1,0 +1,58 @@
+$date
+	Tue Mar 22 20:38:55 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var reg 1 ! reset $end
+$upscope $end
+$scope module test $end
+$var wire 8 " value [7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx "
+0!
+$end
+#17000
+b0 "
+1!
+#28000
+0!
+#35000
+b1 "
+#45000
+b10 "
+#55000
+b11 "
+#57000
+b0 "
+1!
+#68000
+0!
+#75000
+b1 "
+#85000
+b10 "
+#95000
+b11 "
+#105000
+b100 "
+#115000
+b101 "
+#125000
+b110 "
+#135000
+b111 "
+#145000
+b1000 "
+#155000
+b1001 "
+#165000
+b1010 "
+#168000
